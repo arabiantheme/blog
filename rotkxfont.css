@@ -1,0 +1,17 @@
+/*
+ * Rotkx Font (Lao) rotkx.blogspot.com
+ */
+@font-face {
+  font-family: 'Rotkx Font';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//download1076.mediafire.com/lhllp956uysg/fqy5tguhmh4dhpl/NotoSansArabic-Medium.ttf);
+  src: url(//download1076.mediafire.com/lhllp956uysg/fqy5tguhmh4dhpl/NotoSansArabic-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rotkx Font';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//download1525.mediafire.com/lc0oxf6lqgig/bhybk61j0l1dven/NotoSansArabic-Regular.ttf);
+  src: url(//download1525.mediafire.com/lc0oxf6lqgig/bhybk61j0l1dven/NotoSansArabic-Regular.ttf) format('truetype');
+}
