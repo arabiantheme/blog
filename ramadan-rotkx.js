@@ -1,0 +1,3 @@
+var target_date=new Date("ابريل 23, 2020").getTime();var days,hours,minutes,seconds;var hitungmundur=document.getElementById("hitungmundur");setInterval(function(){var current_date=new Date().getTime();var seconds_left=(target_date- current_date)/ 1000;
+days=parseInt(seconds_left/86400);seconds_left=seconds_left%86400;hours=parseInt(seconds_left/3600);seconds_left=seconds_left%3600;minutes=parseInt(seconds_left/60);seconds=parseInt(seconds_left%60);hitungmundur.innerHTML=days+" <span class=\'digital\'>ساعة</span> "+ hours+" <span class=\'digital\'>يوم</span> "
++ minutes+" <span class=\'digital\'>دقيقة</span> "+ seconds+" <span class=\'digital\'>ثانية</span> <span class=\'idjudul\'>رمضان 1441 هـ / 2020 م</span>";},1000);
